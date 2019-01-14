@@ -54,14 +54,7 @@ print("implication(false, true) =" ,implication(a:false,b:true))
 //Ex 3
 
 func factorial(n:Int)->Int{
-    
-    var f = 1
-    var i = 1
-//    while i<=n {
-//        f*i
-//        i+=1
-//    }
-    
+    var f = 1  
     for i in 1...n{
         f*=i
     }
